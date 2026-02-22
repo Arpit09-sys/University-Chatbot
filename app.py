@@ -9,9 +9,13 @@ import numpy as np
 import nltk
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.naive_bayes import MultinomialNB
+import os
 
-# Download once
-nltk.download('punkt')
+# Safe NLTK download (works on cloud)
+try:
+    nltk.data.find("tokenizers/punkt")
+except LookupError:
+    nltk.download("punkt")
 
 app = Flask(__name__)
 
@@ -28,7 +32,7 @@ for intent in intents:
         sentences.append(pattern.lower())
         tags.append(intent["tag"])
 
-# Vectorization (TF-IDF for better results)
+# Vectorization (TF-IDF)
 vectorizer = TfidfVectorizer(ngram_range=(1, 2))
 X = vectorizer.fit_transform(sentences)
 y = np.array(tags)
@@ -59,4 +63,6 @@ def get_response():
     return jsonify({"response": reply})
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    # Render / cloud-friendly run
+    port = int(os.environ.get("PORT", 10000))
+    app.run(host="0.0.0.0", port=port, debug=False)
