@@ -1,0 +1,211 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hi",
+        "hello",
+        "hey",
+        "good morning",
+        "good afternoon",
+        "good evening",
+        "what's up",
+        "how are you"
+      ],
+      "responses": [
+        "Hello! 😊 How can I help you regarding DIT University?",
+        "Hi there! What would you like to know about DIT University or the B.Tech CSE program?"
+      ]
+    },
+    {
+      "tag": "about_university",
+      "patterns": [
+        "tell me about DIT University",
+        "what is DIT University",
+        "where is DIT University located",
+        "is DIT University private or government",
+        "about DIT",
+        "about the university"
+      ],
+      "responses": [
+        "DIT University (Dehradun Institute of Technology) is a private university located in Dehradun, Uttarakhand. It offers undergraduate, postgraduate, and doctoral programs in engineering, management, pharmacy, design, and more."
+      ]
+    },
+    {
+      "tag": "about_cse",
+      "patterns": [
+        "what is BTech CSE",
+        "tell me about BTech CSE",
+        "duration of BTech CSE",
+        "computer science engineering course details",
+        "about CSE program",
+        "subjects in CSE"
+      ],
+      "responses": [
+        "B.Tech CSE (Computer Science & Engineering) at DIT University is a 4-year undergraduate program focusing on programming, algorithms, data structures, AI, machine learning, cybersecurity, and computer systems. It prepares students for software and IT industry roles."
+      ]
+    },
+    {
+      "tag": "fees",
+      "patterns": [
+        "fees",
+        "fee structure",
+        "tuition fees",
+        "what is the fees of BTech CSE",
+        "semester fees",
+        "total fees",
+        "fee per year",
+        "how much does CSE cost"
+      ],
+      "responses": [
+        "The approximate fee for B.Tech CSE at DIT University is ₹1.8–2.2 lakhs per year, depending on scholarships and hostel facilities. Please check the official DIT University website for the latest fee structure."
+      ]
+    },
+    {
+      "tag": "placements",
+      "patterns": [
+        "how are the placements",
+        "placement record",
+        "average package",
+        "highest package",
+        "companies visiting DIT",
+        "top recruiters",
+        "placement details",
+        "campus placements",
+        "DIT placement statistics",
+        "job opportunities after BTech CSE"
+      ],
+      "responses": [
+        "DIT University has an excellent placement record for B.Tech CSE students. Top recruiters include TCS, Infosys, Wipro, Amazon, and Deloitte, with average packages between ₹6–8 LPA and top offers up to ₹30 LPA."
+      ]
+    },
+    {
+      "tag": "faculty",
+      "patterns": [
+        "faculty",
+        "professors",
+        "teachers",
+        "lecturers",
+        "CSE faculty",
+        "faculty quality",
+        "how are the teachers"
+      ],
+      "responses": [
+        "The CSE department at DIT University has highly qualified and experienced faculty with expertise in AI, ML, Data Science, and Software Engineering. Many faculty members hold PhDs and have published research in reputed journals."
+      ]
+    },
+    {
+      "tag": "campus_life",
+      "patterns": [
+        "campus life",
+        "festivals",
+        "clubs",
+        "activities",
+        "events",
+        "sports",
+        "canteen",
+        "life at DIT",
+        "college life"
+      ],
+      "responses": [
+        "Campus life at DIT University is vibrant and engaging — from cultural fests like Ecstasy to tech events like Avenir, plus coding clubs, sports tournaments, and a fun hostel community."
+      ]
+    },
+    {
+      "tag": "admissions",
+      "patterns": [
+        "how to take admission",
+        "admission process",
+        "eligibility",
+        "entrance exam",
+        "apply for BTech",
+        "application form",
+        "admission criteria"
+      ],
+      "responses": [
+        "Admission to B.Tech CSE at DIT University is based on merit and entrance exams like JEE Main or the DITEE (DIT Entrance Exam). You can apply online through the official DIT University admissions portal."
+      ]
+    },
+    {
+      "tag": "hostel",
+      "patterns": [
+        "hostel facilities",
+        "hostel life",
+        "boys hostel",
+        "girls hostel",
+        "is hostel available",
+        "accommodation",
+        "hostel fees"
+      ],
+      "responses": [
+        "Yes, DIT University provides excellent hostel facilities for boys and girls with Wi-Fi, laundry, study areas, and hygienic mess. Hostel fees vary by room type and sharing basis."
+      ]
+    },
+    {
+      "tag": "scholarships",
+      "patterns": [
+        "scholarship",
+        "scholarships available",
+        "fee concession",
+        "merit scholarship",
+        "financial aid"
+      ],
+      "responses": [
+        "DIT University offers scholarships based on merit, JEE Main rank, and academic performance. Scholarships can range from 10% to 100% of tuition fees depending on eligibility."
+      ]
+    },
+    {
+      "tag": "labs_infrastructure",
+      "patterns": [
+        "labs",
+        "computer labs",
+        "infrastructure",
+        "facilities",
+        "classrooms",
+        "library"
+      ],
+      "responses": [
+        "DIT University has advanced computer labs, high-speed internet, digital classrooms, a central library, and dedicated research centers to support practical and innovative learning."
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "where is dit university",
+        "location of dit",
+        "address of dit university",
+        "how to reach dit university"
+      ],
+      "responses": [
+        "DIT University is located in Dehradun, Uttarakhand, near Mussoorie Road. The campus is well-connected by road and public transport."
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "contact details",
+        "how to contact dit",
+        "official website",
+        "helpline number",
+        "admission office contact"
+      ],
+      "responses": [
+        "You can find official contact details on the DIT University website. The admissions office contact information is available on the admissions page."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye",
+        "thank you",
+        "thanks",
+        "see you",
+        "goodbye"
+      ],
+      "responses": [
+        "You're welcome! 😊 Feel free to ask more about DIT University.",
+        "Goodbye! Have a great day and best of luck for your studies!"
+      ]
+    }
+  ]
+}
